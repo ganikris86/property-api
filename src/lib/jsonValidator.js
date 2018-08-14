@@ -41,6 +41,7 @@ var propertySchema = {
 var addressSchema = {
   id: "/addressSchemaId",
   type: "object",
+  required: true,
   properties: {
     street: {
       type: "string",

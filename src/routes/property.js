@@ -11,7 +11,7 @@ function processProperty(req, res) {
   validateSchema(req.body).then(function(result) {
     if (result.trim() === "") {
       const { payload } = req.body;
-      return res.send(filterProperty(payload));
+      return res.send({ response: filterProperty(payload) });
     } else {
       return res
         .status(400)
