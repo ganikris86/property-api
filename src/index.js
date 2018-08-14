@@ -36,6 +36,6 @@ app.use((err, req, res, next) => {
 
 
 server = http.createServer(app);
-server.listen(8000, () => {
-    console.log("App is listening in port 8000");
+server.listen(process.env.PORT || 8000, () => {
+    console.log(`App is listening in port ${process.env.PORT || 8000}`);
 });
