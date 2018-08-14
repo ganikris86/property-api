@@ -1,9 +1,9 @@
 # property-api
 
 API to filter the input request and return the response based on conditions
-It is based on [Express](https://expressjs.com).
-This app listens on port 8000.
-Unit testing is carried out through [Jest](https://jestjs.io/).
+- It is based on [Express](https://expressjs.com).
+- This app listens on port 8000.
+- Unit testing is carried out through [Jest](https://jestjs.io/).
 
 ## Endpoints
 
