@@ -29,6 +29,7 @@ npm test
 ```
 
 Sample output of the unit tests:
+```
 > property-api@1.0.0 test /Users/gani/my_work/Umano/projects/work/property-api
 > jest
 
@@ -47,3 +48,4 @@ Tests:       7 passed, 7 total
 Snapshots:   0 total
 Time:        0.898s, estimated 1s
 Ran all test suites.
+```
