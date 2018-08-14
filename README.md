@@ -8,15 +8,19 @@ API to filter the input request and return the response based on conditions
 ## Heroku URL
 
 This app is deployed in heroku.
+- https://boiling-scrubland-23077.herokuapp.com  (HTTP - POST)
 - https://boiling-scrubland-23077.herokuapp.com/property  (HTTP - POST)
 - Endpoints /property using HTTP GET and POST (though POST is the fully implemented service)
 - Error 400 will be thrown when the JSON does not match the schema validation
 - Sample request is present [here](test/sample/sampleRequest.json) 
 - Sample response is present [here](test/sample/sampleResponse.json)
 - A JSON schema validator is implemented which expects the input to follow a described structure.
+- Both ../ and ../property routes to the same service
 
 ## Endpoints
 
+/ (HTTP - POST)
+/ (HTTP - GET)
 /property (HTTP - POST)
 /property (HTTP - GET)
 

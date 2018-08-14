@@ -10,9 +10,10 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 // routes
+app.get("/", property);
+app.post("/", property);
 app.get("/property", property);
 app.post("/property", property);
-
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {

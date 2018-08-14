@@ -22,4 +22,10 @@ function processProperty(req, res) {
 
 router.post("/property", (req, res) => processProperty(req, res));
 
+router.get("/", (req, res) => {
+  res.send("Property details...");
+});
+
+router.post("/", (req, res) => processProperty(req, res));
+
 module.exports = router;
