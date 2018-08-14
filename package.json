@@ -3,10 +3,16 @@
   "version": "1.0.0",
   "description": "API to filter property data",
   "main": "index.js",
+  "engines": {
+    "node": "8.11.1"
+  },
   "scripts": {
     "start": "node ./src/index.js",
     "test": "jest"
   },
+  "keywords": [
+    "heroku"
+  ],
   "author": "Ganesh Radhakrishnan",
   "license": "ISC",
   "dependencies": {
