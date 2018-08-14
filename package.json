@@ -4,6 +4,7 @@
   "description": "API to filter property data",
   "main": "index.js",
   "scripts": {
+    "start": "node ./src/index.js",
     "test": "jest"
   },
   "author": "Ganesh Radhakrishnan",
